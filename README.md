@@ -14,18 +14,18 @@
 
 ## Getting Started
 
-To take advantage of Polymer Starter Kit you need to:
+Polymer Starter Kitを利用するには次のようにする必要があります:
 
-1. Get a copy of the code.
-2. Install the dependencies if you don't already have them.
-3. Modify the application to your liking.
-4. Deploy your production code.
+1. コードを取得します。
+2. インストールされていない場合は、依存するライブラリをインストールします。
+3. アプリケーションを変更します。
+4. プロダクションコードをデプロイします。
 
 ### Get the code
 
-[Download](https://github.com/polymerelements/polymer-starter-kit/releases/latest) and extract Polymer Starter Kit to where you want to work.
+こちら [Download](https://github.com/polymerelements/polymer-starter-kit/releases/latest) からダウンロードします。
 
-The standard version of Polymer Starter Kit comes with tools that are very handy when developing a Polymer app. If you'd like to get started without installing any new tools, see Polymer Starter Kit Light in the [Releases](https://github.com/polymerelements/polymer-starter-kit/releases/latest) page.
+スタンダードバージョンのPolymer Starter Kit はPolymerのアプリケーション開発をする際に非常に便利なツールが付属しています。新規にツールをインストールせずに始めたい場合は、[Releases](https://github.com/polymerelements/polymer-starter-kit/releases/latest) ページの Polymer Starter Kit Light を見てみてください。
 
 ### Install dependencies
 
