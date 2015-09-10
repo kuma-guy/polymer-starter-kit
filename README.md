@@ -137,9 +137,10 @@ CSSのカスタムプロパティについての詳細は、こちら[Read more]
 
 ## Unit Testing
 
-Web apps built with Polymer Starter Kit come configured with support for [Web Component Tester](https://github.com/Polymer/web-component-tester) - Polymer's preferred tool for authoring and running unit tests. This makes testing your element based applications a pleasant experience.
+Polymer Starter KitでビルドされたWebアプリケーションは [Web Component Tester](https://github.com/Polymer/web-component-tester)がサポートされています。
+Web Component Testerは、オーサリングとユニットテスト実行のためのPolymer推奨のツールです。これはエレメントベースのアプリケーションテスティングに良い経験となるでしょう。
 
-[Read more](https://github.com/Polymer/web-component-tester#html-suites) about using Web Component tester.
+Web Component testerについてはこちら [Read more](https://github.com/Polymer/web-component-tester#html-suites)
 
 ## Dependency Management
 
