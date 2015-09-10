@@ -138,13 +138,13 @@ CSSのカスタムプロパティについての詳細は、こちら[Read more]
 ## Unit Testing
 
 Polymer Starter KitでビルドされたWebアプリケーションは [Web Component Tester](https://github.com/Polymer/web-component-tester)がサポートされています。
-Web Component Testerは、オーサリングとユニットテスト実行のためのPolymer推奨のツールです。これはエレメントベースのアプリケーションテスティングに良い経験となるでしょう。
+Web Component Testerは、オーサリングとユニットテスト実行のためのPolymer推奨のツールです。これはエレメントベースのアプリケーションのテストに良い経験となるでしょう。
 
 Web Component testerについてはこちら [Read more](https://github.com/Polymer/web-component-tester#html-suites)
 
 ## Dependency Management
 
-Polymer uses [Bower](http://bower.io) for package management. This makes it easy to keep your elements up to date and versioned. For tooling, we use npm to manage Node.js-based dependencies.
+Polymerはパッケージ管理に [Bower](http://bower.io) を使用します。これによって簡単にエレメントを更新したり、バージョンを管理する事が可能です。ツールには、私たちはNode.jsベースの依存を管理するためにnpmを使用します。
 
 ## Service Worker
 
