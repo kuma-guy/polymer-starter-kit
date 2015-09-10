@@ -44,7 +44,7 @@ Starter Kitは下記のメジャーなソフトウェアが必要です:
 - Node.js, コマンドラインからのJavaScriptツールの実行に使用されます。
 - npm, Node.jsのパッケージマネージャーです。Node.jsと共にインストールされパッケージのインストールに使用されます。
 - gulp, Node.jsベースのビルドツールです。
-- bower, Node.jsベースのパッケージマネージャでPolymerのようにフロントエンドのパッケージインストールに使用されます。
+- bower, Node.jsベースのパッケージマネージャでPolymerのようなフロントエンドのパッケージインストールに使用されます。
 
 **依存のインストール:**
 
@@ -93,7 +93,7 @@ gulp test:local
 [web-component-tester](https://github.com/Polymer/web-component-tester)を利用し、`app/test` ディレクトリにあるユニットテストを実行します。
 
 テストの事項には、Java 7かそれ以上のバージョンのJavaがインストールされている必要があります。
-アップデートするには、http://www.oracle.com/technetwork/java/javase/downloads/index.htmlへ行き、***JDK*** をダウンロードしてインストールしてください。
+アップデートするには、http://www.oracle.com/technetwork/java/javase/downloads/index.htmlへ行き、 ***JDK*** をダウンロードしてインストールしてください。
 
 #### Build & Vulcanize
 
@@ -105,15 +105,15 @@ gulp
 
 ## Application Theming & Styling
 
-Polymer 1.0 introduces a shim for CSS custom properties. We take advantage of this in `app/styles/app-theme.html` to provide theming for your application. You can also find our presets for Material Design breakpoints in this file.
+Polymer 1.0では、CSSのカスタムプロパティのためのシムがあります。アプリケーションのテーマのカスタマイズを、`app/styles/app-theme.html` で行っています。また、私たちのMaterial Designのプリセットを見ることが出来ます。
 
-[Read more](https://www.polymer-project.org/1.0/docs/devguide/styling.html) about CSS custom properties.
+CSSのカスタムプロパティについての詳細は、こちら[Read more](https://www.polymer-project.org/1.0/docs/devguide/styling.html)
 
 ### Styling
-1. ***main.css*** - to define styles that can be applied outside of Polymer's custom CSS properties implementation. Some of the use-cases include defining styles that you want to be applied for a splash screen, styles for your application 'shell' before it gets upgraded using Polymer or critical style blocks that you want parsed before your elements are.
-2. ***app-theme.html*** - to provide theming for your application. You can also find our presets for Material Design breakpoints in this file.
-3. ***shared-styles.html*** - to shared styles between elements and index.html.
-4. ***element styles only*** - styles specific to element. These styles should be inside the `<style></style>` inside `template`.
+1. ***main.css*** - PolymerのカスタムCSSプロパティの実装の外にも適用することができるスタイルを定義します。 ユースケースとしては、スプラッシュスクリーンやPolymerでアップグレードされる前のアプリケーション 'シェル' 、エレメントがパースされるまえのクリティカルなスタイルブロック等があります。
+2. ***app-theme.html*** - アプリケーション全体のテーマを設定できます。 また、私たちのMaterial Designのプリセットを見ることが出来ます。
+3. ***shared-styles.html*** - エレメントとindex.html間のスタイル共有のためのファイルです。
+4. ***element styles only*** -　エレメントへのスタイルファイルです。スタイル設定は `template`の `<style></style>` タグの中に定義されている必要があります。
 
   ```HTML
   <dom-module id="my-list">
@@ -133,7 +133,7 @@ Polymer 1.0 introduces a shim for CSS custom properties. We take advantage of th
   </dom-module>
   ```
 
-These style files are located in the [styles folder](app/styles/).
+これらのスタイルファイルは、 [styles folder](app/styles/) にあります。
 
 ## Unit Testing
 
