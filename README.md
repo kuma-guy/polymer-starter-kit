@@ -31,7 +31,7 @@ The standard version of Polymer Starter Kit comes with tools that are very handy
 
 #### Quick-start (for experienced users)
 
-With Node.js installed, run the following one liner from the root of your Polymer Starter Kit download:
+Node.jsをインストールした状態で、Polymer Starter Kitのルートディレクトリで下記を実行します。
 
 ```sh
 npm install -g gulp bower && npm install && bower install
@@ -39,40 +39,40 @@ npm install -g gulp bower && npm install && bower install
 
 #### Prerequisites (for everyone)
 
-The full starter kit requires the following major dependencies:
+Starter Kitは下記のメジャーなソフトウェアが必要です:
 
-- Node.js, used to run JavaScript tools from the command line.
-- npm, the node package manager, installed with Node.js and used to install Node.js packages.
-- gulp, a Node.js-based build tool.
-- bower, a Node.js-based package manager used to install front-end packages (like Polymer).
+- Node.js, コマンドラインからのJavaScriptツールの実行に使用されます。
+- npm, Node.jsのパッケージマネージャーです。Node.jsと共にインストールされパッケージのインストールに使用されます。
+- gulp, Node.jsベースのビルドツールです。
+- bower, Node.jsベースのパッケージマネージャでPolymerのようにフロントエンドのパッケージインストールに使用されます。
 
-**To install dependencies:**
+**依存のインストール:**
 
-1)  Check your Node.js version.
+1)  Node.jsのバージョンをチェックします。
 
 ```sh
 node --version
 ```
 
-The version should be at or above 0.12.x.
+バージョンは0.12.xかそれ以上である必要があります。
 
-2)  If you don't have Node.js installed, or you have a lower version, go to [nodejs.org](https://nodejs.org) and click on the big green Install button.
+2　　Node.jsがインストールされていない、または下位バージョンがインストールされている場合は, [nodejs.org](https://nodejs.org)へ行き、インストールボタンをクリックしてください。
 
-3)  Install `gulp` and `bower` globally.
+3)  `gulp` と `bower` をグローバルインストールします。
 
 ```sh
 npm install -g gulp bower
 ```
 
-This lets you run `gulp` and `bower` from the command line.
+これで、コマンドラインから `gulp` と `bower` が実行出来るようになります。
 
-4)  Install the starter kit's local `npm` and `bower` dependencies.
+4)  Starter Kitの `npm` と `bower`依存をインストールします。
 
 ```sh
 cd polymer-starter-kit && npm install && bower install
 ```
 
-This installs the element sets (Paper, Iron, Platinum) and tools the starter kit requires to build and serve apps.
+これはPaper, Iron, Platinumのエレメントセットや、アプリケーションのビルドに必要なツールをインストールします。
 
 ### Development workflow
 
@@ -82,7 +82,7 @@ This installs the element sets (Paper, Iron, Platinum) and tools the starter kit
 gulp serve
 ```
 
-This outputs an IP address you can use to locally test and another that can be used on devices connected to your network.
+これはローカルや、ネットワークに接続されたデバイス上でテストするためのIPアドレスを出力します。
 
 #### Run tests
 
@@ -90,9 +90,10 @@ This outputs an IP address you can use to locally test and another that can be u
 gulp test:local
 ```
 
-This runs the unit tests defined in the `app/test` directory through [web-component-tester](https://github.com/Polymer/web-component-tester).
+[web-component-tester](https://github.com/Polymer/web-component-tester)を利用し、`app/test` ディレクトリにあるユニットテストを実行します。
 
-To run tests Java 7 or higher is required. To update Java go to http://www.oracle.com/technetwork/java/javase/downloads/index.html and download ***JDK*** and install it.
+テストの事項には、Java 7かそれ以上のバージョンのJavaがインストールされている必要があります。
+アップデートするには、http://www.oracle.com/technetwork/java/javase/downloads/index.htmlへ行き、***JDK*** をダウンロードしてインストールしてください。
 
 #### Build & Vulcanize
 
@@ -100,7 +101,7 @@ To run tests Java 7 or higher is required. To update Java go to http://www.oracl
 gulp
 ```
 
-Build and optimize the current project, ready for deployment. This includes linting as well as vulcanization, image, script, stylesheet and HTML optimization and minification.
+現在のプロジェクトをビルド、最適化し、デプロイの準備を行います。これはvulcanization(加硫)、画像、スクリプト、スタイルシートやHTMLの最適化や縮小などを含みます。
 
 ## Application Theming & Styling
 
